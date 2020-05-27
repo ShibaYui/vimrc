@@ -25,9 +25,6 @@ map <F5> :call CompileRun()<cr>
 		elseif &filetype == 'java'
 			exec "!javac %"
 			exec "!java %<"
-		
-		elseif &filetype == 'python'
-			exec "!python %"
 
 		elseif &filetype == 'sh'
 			exec "!chmod a+x %"
@@ -35,8 +32,21 @@ map <F5> :call CompileRun()<cr>
 		endif
 	endfunc
 
-"<F6> GDB
-map <F6> :call GDB()<cr>
+"<F6> python2
+map <F6> :call Py2()<cr>
+	func! Py2()
+		exec "w"
+		exec "python %"
+	endfunc
+
+"<F7> python3
+	func! Py3()
+		exec "w"
+		exec "python3 %"
+	endfunc
+
+"<F8> GDB
+map <F8> :call GDB()<cr>
 	func! GDB()
 		exec "w"
 		if &filetype == 'c'
