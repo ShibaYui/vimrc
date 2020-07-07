@@ -8,6 +8,16 @@ set tabstop=4
 set wrap
 set scrolloff=3
 
+" instant-markdown-d plugin
+filetype plugin on
+
+" php auto complete
+" ctrl+x & ctrl+o
+autocmd Filetype php set omnifunc=phpcomplete#CompletePHP
+
+" javascript auto complete
+" ctrl+x & ctrl+o
+autocmd FileType javascript set omnifunc=javascript#CompletJS
 
 "<F5> Compile and Run
 "c, cpp, java, python, shell script
