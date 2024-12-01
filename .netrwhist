@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/root/leetcode_cpp/.git'
+let g:netrw_dirhist_5='/media/yu1/cda5a326-8ba8-4f6f-8b81-80201981baf7/home/test/Desktop/1946_ROCm/57300'
+let g:netrw_dirhist_4='/media/yu1/cda5a326-8ba8-4f6f-8b81-80201981baf7/home/test/Desktop/1946_ROCm'
+let g:netrw_dirhist_3='/media/yu1/cda5a326-8ba8-4f6f-8b81-80201981baf7/home/test/Desktop'
+let g:netrw_dirhist_2='/media/yu1/75fa57cf-3e23-471a-af4d-85958992b23b/etc'
+let g:netrw_dirhist_1='/root/_work/aewin/sc_1742_1741'

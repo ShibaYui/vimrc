@@ -1,0 +1,28 @@
+##	Filename: README
+##	Author: yu1
+##	Date: 2024-12-02 00:42:56 +0800
+##  
+
+#2024-12-02 00:43:09 +0800
+	file-structure:
+		├── .vim
+		│   ├── colors
+		│   │   └── mirodark.vim
+		│   ├── .netrwhist
+		│   └── temp
+		│       ├── module.cpp
+		│       ├── module.py
+		│       ├── module.releasenote
+		│       ├── module.sh
+		│       └── module.txt
+		└── .vimrc
+
+	how-to-use:
+		put than to /root/ & /home/<user-ID>/
+		(super & normal-user are using different configs)
+
+	where can find vim-themes:
+		https://colorswat.ch/vim/
+		donwload *.vim and copy to ~/.vim/colors/
+
+
