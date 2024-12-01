@@ -1,4 +1,5 @@
 " Vim Color File
+" Ref: https://colorswat.ch/vim/
 "
 " Name:        mirodark
 " Version:     0.5
