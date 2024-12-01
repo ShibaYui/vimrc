@@ -16,3 +16,5 @@ path_to_vimrc="/root/.vimrc"
 
 rsync -avP "$path_to_vimrc" "$git"
 rsync -avP "$path_vim_configs" "$git"
+
+rm "$git".netrwhist
