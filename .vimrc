@@ -26,6 +26,7 @@ autocmd BufNewFile *.py 0r ~/.vim/temp/module.py | call MessageGenerator() | cal
 autocmd BufNewFile *.txt 0r ~/.vim/temp/module.txt | call MessageGenerator() | call cursor(6, 4)
 autocmd BufNewFile *.cpp 0r ~/.vim/temp/module.cpp | call MessageGenerator() | call cursor(7, 4)
 autocmd BufNewFile releaseNote* 0r ~/.vim/temp/module.releasenote | call MessageGenerator() | call cursor(6, 4)
+autocmd BufNewFile README 0r ~/.vim/temp/module.readme | call MessageGenerator() | call cursor(6, 4)
 
 " key mapping
 inoremap ( ()<esc>i
