@@ -10,11 +10,11 @@
 
 set -x
 
-git="/root/vim_config/"
-path_vim_configs="/root/.vim/"
+git="/root/vim_config"
+path_to_vim_configs="/root/.vim"
 path_to_vimrc="/root/.vimrc"
 
-rsync -avP "$path_to_vimrc" "$git"
-rsync -avP "$path_vim_configs" "$git"
+cp -r "$path_to_vim_configs"/ "$git"/
+cp -r "$path_to_vimrc" "$git"/
 
-rm "$git".netrwhist
+rm "$git"/.vim/.netrwhist

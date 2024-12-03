@@ -9,18 +9,18 @@
 		├── .vim
 		│   ├── colors
 		│   │   └── mirodark.vim
-		│   ├── .netrwhist
 		│   └── temp
 		│       ├── module.cpp
 		│       ├── module.py
-		│		├── module.readme
+		│       ├── module.readme
 		│       ├── module.releasenote
 		│       ├── module.sh
 		│       └── module.txt
 		└── .vimrc
 
+
 	how-to-use:
-		put than to /root/ & /home/<user-ID>/
+		put .vimrc & .vim/ to /root/ & /home/<user-ID>/
 		(super & normal-user are using different configs)
 
 	where can find vim-themes:
