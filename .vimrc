@@ -78,7 +78,7 @@ map <F5> :call DevTools()<cr>
 	func! DevTools()
 		exec "w"
 		if &filetype == 'sh'
-			:!sudo chmod a+x %
+			:!sudo chmod a+x %`
 			:!time source %
 		elseif &filetype == 'cpp'
 			:!time g++ % -o %<

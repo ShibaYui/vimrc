@@ -1,10 +1,10 @@
 /*
-	Filename: %FILENAME%
-	Author: %AUTHOR%
-	Date: %DATE%
+Filename: %FILENAME%
+Author: %AUTHOR%
+Date: %DATE%
 
-	Description: 
-*/
+Description: 
+	*/
 #include<iostream>
 using namespace std;
 int main() {
