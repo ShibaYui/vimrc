@@ -27,4 +27,7 @@
 		https://colorswat.ch/vim/
 		donwload *.vim and copy to ~/.vim/colors/
 
-
+#2024-12-05 21:54:47 +0800
+	do configuration in "vimrc"
+		scrolloff=24 -> 999
+		add "set virtualedit=all"

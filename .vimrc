@@ -5,7 +5,11 @@ set wrap
 set ic
 set cursorline
 set hlsearch
-set scrolloff=24
+
+"確保正在編輯行列保持在視窗中間
+set scrolloff=999
+set virtualedit=all
+
 set t_Co=256	" setting vim for 256 colors
 set autoindent	" auto indent as below previous line
 syntax on
