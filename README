@@ -31,3 +31,5 @@
 	do configuration in "vimrc"
 		scrolloff=24 -> 999
 		add "set virtualedit=all"
+
+

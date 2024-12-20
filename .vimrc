@@ -86,7 +86,10 @@ map <F5> :call DevTools()<cr>
 			:!time source %
 		elseif &filetype == 'cpp'
 			:!time g++ % -o %<
-			:!time ./%<
+			:!time ./%<  		
+		elseif &filetype == 'c'
+			:!time gcc % -o %<
+			:!time ./%< 
 		elseif &filetype == 'python'
 			:!time python3 %
 		endif

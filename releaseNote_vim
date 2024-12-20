@@ -19,3 +19,6 @@
 
 	upload config "module.readme" to ".vim/temp"
 
+#2024-12-20 09:55:28 +0800
+	add "automatic c-compiled" in Func "DevTools"
+
