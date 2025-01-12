@@ -78,7 +78,8 @@ map <F4> :call Shellcheck()<cr>
 	endfunc
 
 " Dev tools
-map <F5> :call DevTools()<cr>
+"map <F5> :call DevTools()<cr>
+map  :call DevTools()<cr>
 	func! DevTools()
 		exec "w"
 		if &filetype == 'sh'

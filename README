@@ -32,4 +32,5 @@
 		scrolloff=24 -> 999
 		add "set virtualedit=all"
 
-
+#2025-01-12 15:02:30 +0800
+	change automatic-compile/exec shortcut from "<F5>" to ""
