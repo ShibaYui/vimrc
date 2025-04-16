@@ -29,6 +29,7 @@ autocmd BufNewFile *.sh 0r ~/.vim/temp/module.sh | call MessageGenerator() | cal
 autocmd BufNewFile *.py 0r ~/.vim/temp/module.py | call MessageGenerator() | call cursor(8, 4)
 autocmd BufNewFile *.txt 0r ~/.vim/temp/module.txt | call MessageGenerator() | call cursor(6, 4)
 autocmd BufNewFile *.cpp 0r ~/.vim/temp/module.cpp | call MessageGenerator() | call cursor(7, 4)
+autocmd BufNewFile *.work 0r ~/.vim/temp/workReport.txt | call MessageGenerator() | call cursor(7, 4)
 autocmd BufNewFile releaseNote* 0r ~/.vim/temp/module.releasenote | call MessageGenerator() | call cursor(6, 4)
 autocmd BufNewFile README 0r ~/.vim/temp/module.readme | call MessageGenerator() | call cursor(6, 4)
 
@@ -49,9 +50,11 @@ map <F2> :so $VIMRUNTIME/syntax/colortest.vim<cr>
 "       none
 ""color mirodark
 ""color evening
-hi CursorLine cterm=bold ctermbg=237 ctermfg=none
+hi CursorLine cterm=bold ctermbg=darkgray ctermfg=none
+""hi CursorLine cterm=bold ctermbg=007 ctermfg=none
 hi LineNr cterm=bold ctermfg=237 ctermbg=none
-hi CursorLineNr cterm=bold ctermfg=white ctermbg=none
+""hi CursorLineNr cterm=bold ctermfg=white ctermbg=none
+hi CursorLineNr cterm=bold ctermfg=red ctermbg=none
 hi Comment ctermfg=248
 
 " for printing timestamp

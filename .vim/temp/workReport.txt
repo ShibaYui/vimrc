@@ -1,0 +1,10 @@
+##	Filename: %FILENAME%
+##	Author: wick.hy.hsu
+##	Date: %DATE%
+## 
+##	Description: work daily report
+## 
+
+todo:
+
+report:
