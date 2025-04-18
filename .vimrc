@@ -31,6 +31,7 @@ autocmd BufNewFile *.txt 0r ~/.vim/temp/module.txt | call MessageGenerator() | c
 autocmd BufNewFile *.cpp 0r ~/.vim/temp/module.cpp | call MessageGenerator() | call cursor(7, 4)
 autocmd BufNewFile *.work 0r ~/.vim/temp/workReport.txt | call MessageGenerator() | call cursor(11, 4)
 autocmd BufNewFile README* 0r ~/.vim/temp/readmeDemo.md | call MessageGenerator() | call cursor(10, 7)
+autocmd BufNewFile note_* 0r ~/.vim/temp/noteDemo.md | call MessageGenerator() | call cursor(17, 4)
 
 " key mapping
 inoremap ( ()<esc>i

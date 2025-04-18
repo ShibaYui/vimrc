@@ -88,3 +88,6 @@ super & normal-user are using different configs
 	* add "markdown previewer", need package "glow"
 	* remove "module.readme"
 	* remove "module.releasenote"
+
+* 2025-04-19 05:39:35 +0800
+	* add autimatic-input "noteDemo.md"
