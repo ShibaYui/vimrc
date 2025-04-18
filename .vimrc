@@ -29,9 +29,8 @@ autocmd BufNewFile *.sh 0r ~/.vim/temp/module.sh | call MessageGenerator() | cal
 autocmd BufNewFile *.py 0r ~/.vim/temp/module.py | call MessageGenerator() | call cursor(8, 4)
 autocmd BufNewFile *.txt 0r ~/.vim/temp/module.txt | call MessageGenerator() | call cursor(6, 4)
 autocmd BufNewFile *.cpp 0r ~/.vim/temp/module.cpp | call MessageGenerator() | call cursor(7, 4)
-autocmd BufNewFile *.work 0r ~/.vim/temp/workReport.txt | call MessageGenerator() | call cursor(7, 4)
-autocmd BufNewFile releaseNote* 0r ~/.vim/temp/module.releasenote | call MessageGenerator() | call cursor(6, 4)
-autocmd BufNewFile README 0r ~/.vim/temp/module.readme | call MessageGenerator() | call cursor(6, 4)
+autocmd BufNewFile *.work 0r ~/.vim/temp/workReport.txt | call MessageGenerator() | call cursor(11, 4)
+autocmd BufNewFile README* 0r ~/.vim/temp/readmeDemo.md | call MessageGenerator() | call cursor(10, 7)
 
 " key mapping
 inoremap ( ()<esc>i
@@ -81,7 +80,6 @@ map <F4> :call Shellcheck()<cr>
 	endfunc
 
 " Dev tools
-"map <F5> :call DevTools()<cr>
 map  :call DevTools()<cr>
 	func! DevTools()
 		exec "w"
@@ -96,5 +94,8 @@ map  :call DevTools()<cr>
 			:!time ./%< 
 		elseif &filetype == 'python'
 			:!time python3 %
+		elseif &filetype == 'markdown'
+		"Ref. https://github.com/charmbracelet/glow
+			:!glow %
 		endif
 	endfunc

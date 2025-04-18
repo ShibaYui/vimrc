@@ -5,6 +5,6 @@
 ##	Description: work daily report
 ## 
 
-todo:
+note:
 
 report:
