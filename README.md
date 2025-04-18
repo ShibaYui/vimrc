@@ -91,3 +91,4 @@ super & normal-user are using different configs
 
 * 2025-04-19 05:39:35 +0800
 	* add autimatic-input "noteDemo.md"
+	* fix some syntax issue

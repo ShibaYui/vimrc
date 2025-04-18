@@ -11,9 +11,8 @@
 
 > Date: %DATE%
 
-# Name
+# Description
 
-## Description
 
-## Release
+# Release
 	* %DATE%
