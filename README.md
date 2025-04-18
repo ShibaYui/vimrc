@@ -5,9 +5,10 @@
 |  _ <| |___ / ___ \| |_| | |  | | |___
 |_| \_\_____/_/   \_\____/|_|  |_|_____|
 ```
->
-> Author: yu1           Release_Date: 2025-04-18 06:02:29 +0800
->
+:::info
+Author: yu1
+Release_Date: 2025-04-18 06:02:29 +0800
+:::
 
 # yu1's vim configration
 
@@ -79,7 +80,7 @@ super & normal-user are using different configs
 		* add "set virtualedit=all"
 
 * 2025-01-12 15:02:30 +0800
-	* change automatic-compile/exec shortcut from "<F5>" to "Ctrl+Z"
+	* change automatic-compile/exec shortcut from "F5" to "Ctrl+Z"
 
 * 2025-04-18 06:02:29 +0800
 	* update README.md
