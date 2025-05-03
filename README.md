@@ -12,48 +12,44 @@
 
 # yu1's vim configration
 
-## Description
+## Ref.
+[colorswat](https://colorswat.ch/vim/)
+
+## Introduction
 * File Structure
-	``` 
-	.
-	├── colors
-	│   └── mirodark.vim
-	├── README.md
-	├── sync_vim.sh
-	├── .vim
-	│   ├── colors
-	│   │   └── mirodark.vim
-	│   └── temp
-	│       ├── module.cpp
-	│       ├── module.py
-	│       ├── module.sh
-	│       ├── module.txt
-	│       ├── readmeDemo.md
-	│       └── workReport.txt
-	└── .vimrc 
-	```
- 
-## Inatallation
- 
+```bash 
+.
+├── colors
+│   └── mirodark.vim
+├── README.md
+├── sync_vim.sh
+├── .vim
+│   ├── colors
+│   │   └── mirodark.vim
+│   └── temp
+│       ├── module.cpp
+│       ├── module.py
+│       ├── module.sh
+│       ├── module.txt
+│       ├── noteDemo.md
+│       ├── readmeDemo.md
+│       └── workReport.txt
+└── .vimrc
+```
+## Features
+* vimrc 
 
-## Packaging
-* vim 
-	* `apt install vim`
+* .vim/temp/*
 
+* .vim/colors/*
 
-* vim-themes  		
-	* Ref. https://colorswat.ch/vim/
-	`donwload *.vim and copy to ~/.vim/colors/`
-
-
-* glow
-	* `apt install glow`
+## Installation
  
 ## Usage
-put .vimrc & .vim/ to /root/ & /home/<user-ID>/
+put .vimrc & .vim/ to /root/ & /home/`user-ID`/
 
 :::info
-super & normal-user are using different configs
+super & normal-user are using different config path
 :::
  
 
