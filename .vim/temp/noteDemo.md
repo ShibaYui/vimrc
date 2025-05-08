@@ -9,7 +9,7 @@
 
 > Name: %FILENAME%
 
-> Date: %DATE%
+> Initial Release: %DATE%
 
 # Description
 

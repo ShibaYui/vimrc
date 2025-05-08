@@ -4,7 +4,7 @@
 ```
 > Author: %AUTHOR%           
 
-> Release_Date: %DATE%
+> Initial Release: %DATE%
 
 # Name
 

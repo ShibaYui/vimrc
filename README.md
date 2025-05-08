@@ -10,7 +10,7 @@
 
 > Author: yu1
 
-> Release_Date: 2025-04-18 06:02:29 +0800
+> Initial Release: 2025-04-18 06:02:29 +0800
 
 ## Ref.
 [colorswat](https://colorswat.ch/vim/)
@@ -94,3 +94,6 @@ super & normal-user are using different config path
 
 * 2025-05-07 08:35:30 +0800
 	* add `AsciiTitleGenerator()`
+
+* 2025-05-09 06:54:31 +0800
+	* change item name "DATE" -> "Initial Release"

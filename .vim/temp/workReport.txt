@@ -1,6 +1,6 @@
 ##	Filename: %FILENAME%
 ##	Author: wick.hy.hsu
-##	Date: %DATE%
+##	Initial Release: %DATE%
 ## 
 ##	Description: work daily report
 ## 

@@ -1,7 +1,7 @@
 /*
 Filename: %FILENAME%
 Author: %AUTHOR%
-Date: %DATE%
+Initial Release: %DATE%
 
 Description: 
 	*/
