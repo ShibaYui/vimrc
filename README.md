@@ -97,3 +97,4 @@ super & normal-user are using different config path
 
 * 2025-05-09 06:54:31 +0800
 	* change item name "DATE" -> "Initial Release"
+	* delete `module.md` item: `NAME`

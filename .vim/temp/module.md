@@ -6,8 +6,6 @@
 
 > Initial Release: %DATE%
 
-# Name
-
 ## Ref.
 
 
