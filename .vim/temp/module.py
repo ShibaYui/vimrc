@@ -1,6 +1,7 @@
-##	Filename: %FILENAME%
-##	Author: %AUTHOR%
-##	Initial Release: %DATE%
-## 
-##	Description:
-## 
+'''
+	Filename: %FILENAME%
+	Author: %AUTHOR%
+	Initial Release: %DATE%
+
+	Description:
+'''

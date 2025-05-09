@@ -97,3 +97,7 @@ super & normal-user are using different config path
 
 * 2025-05-09 06:54:31 +0800
 	* change item name "DATE" -> "Initial Release"
+	* delete `module.md` item: `NAME`
+
+* 2025-08-27 15:18:14 +0800
+	* update "module.py" commit block
