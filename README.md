@@ -101,3 +101,6 @@ super & normal-user are using different config path
 
 * 2025-08-27 15:18:14 +0800
 	* update "module.py" commit block
+
+* 2025-08-28 10:14:29 +0800
+	* update "module.sh"
