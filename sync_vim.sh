@@ -10,7 +10,7 @@
 
 set -x
 
-git="/root/vim_config"
+git="/root/_git/vimrc"
 path_to_vim_configs="/root/.vim"
 path_to_vimrc="/root/.vimrc"
 
